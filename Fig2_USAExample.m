@@ -20,7 +20,7 @@ if collectData
 
     % Compute optimal vaccine allocations for vector of R0 values
     [vacOfMoreSusceptible,vacOfLessSusceptible,optimalAllocationRes,optimalAllocation,attackRatevacOfMoreSusceptible,attackRatevacOfLessSusceptible]=ComputeFinalSizeasFunctionOfR(Rvalues,Cij,Ni,vaccineCoverage,varepsilon);
-    saveFile(['./data/dataUS9by9_coverage=',num2str(vaccineCoverage),',VE=',num2str(100*(1-varepsilon)),'.mat'],vacOfLessSusceptible,optimalAllocationRes,optimalAllocation,Rvalues,Ni,N,Cij);
+    saveFile(['./data/dataUS9by9,coverage=',num2str(vaccineCoverage),',VE=',num2str(100*(1-varepsilon)),'.mat'],vacOfLessSusceptible,optimalAllocationRes,optimalAllocation,Rvalues,Ni,N,Cij);
 end
 
 %% Presentation of the results
