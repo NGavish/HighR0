@@ -7,5 +7,5 @@ Please see documentation inside this Matlab script to produce or explore specifi
 
 When using this code, please cite:
 
-Optimal vaccination at high reproductive numbers: sharp transitions and counter-intuitive allocations
+"Optimal vaccination at high reproductive numbers: sharp transitions and counter-intuitive allocations",
 Nir Gavish, Guy Katriel 
