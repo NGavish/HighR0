@@ -42,7 +42,7 @@ set(gcf,'Position',[520 551 560 246])
 xlabel('R_0');ylabel('attack rate')
 ylim([0 100]);
 ytickformat('percentage');
-title('Analytic two groups example')
+title('attack rate - two groups example')
 box on;grid on;
 set(gca,'xtick',1:5)
 axis([1 5 0 100]);
