@@ -8,7 +8,7 @@ addpath('./AuxilaryFunctions/')
 [status,msg] = mkdir('./data');    % Computed data
 [status,msg] = mkdir('./graphs');  % Graphs
 
-collectData=true;
+collectData=false;
 
 %% Figure 1. Example with three groups.
 Fig1_ThreeGroupsExample(collectData)

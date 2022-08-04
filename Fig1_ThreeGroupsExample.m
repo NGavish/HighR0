@@ -15,8 +15,8 @@ if collectData
     [V,d]=eig(Cij);Cij=Cij/max(abs(diag(d)))
 
     % Vector of R0 values
-    d=linspace(-0.1,0.1,51);
-    Rvalues=unique([linspace(2.5,10,100) 4.72+d 5.82+d]);
+    %d=linspace(-0.1,0.1,51);Rvalues=unique([linspace(2.5,10,100) 4.72+d 5.82+d]);
+    Rvalues=[2.5 4.750 4.7680 5.716 5.736 10];
 
     % Compute optimal vaccine allocations for vector of R0 values
     [vacOfMoreSusceptible,vacOfLessSusceptible,optimalAllocationRes,optimalAllocation,attackRatevacOfMoreSusceptible,attackRatevacOfLessSusceptible]=ComputeFinalSizeasFunctionOfR(Rvalues,Cij,Ni,vaccineCoverage,varepsilon);

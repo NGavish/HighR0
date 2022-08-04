@@ -36,7 +36,7 @@ if collectData
 
     % Extract `spreaders' allocation
     % This is the optimal allocation at smallest R0 in which herd immunity is not reached
-    idx=22; % This is the index of the R0\approx 2.6
+    idx=min(find(data.Rvalues>2.6)); % This is the index of the R0\approx 2.6 
     optimalAllocationAtLowR=data.optimalAllocation{idx};
 
     % Extract final sizes resulting from optimal and asymptotic
